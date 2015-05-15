@@ -6,17 +6,17 @@
     </div>
 
 
-    <div class="login-form">
+    <div class="login-form">  
       <div class="card">
         <div class="list">
           <label class="item item-input">
-            <input type="text" ng-model="form.username" placeholder="Enter your {{ form.signingUp ? 'desired' : 'songhop' }} username">
+            <input type="text" ng-model="form.username" placeholder="Enter your {{ form.signingUp ? &#39;desired&#39; : &#39;songhop&#39; }} username">
           </label>
         </div>
       </div>
 
       <div class="padding-left padding-right">
-        <button class="button button-block action-button" ng-class="{'button-positive': !form.signingUp, 'button-balanced': form.signingUp}" ng-click="submitForm(form.username, form.signingUp)">
+        <button class="button button-block action-button" ng-class="{&#39;button-positive&#39;: !form.signingUp, &#39;button-balanced&#39;: form.signingUp}" ng-click="submitForm(form.username, form.signingUp)">
           {{ form.signingUp ? 'Sign up' : 'Sign in' }}
         </button>
       </div>

@@ -46,16 +46,9 @@
   transition:all cubic-bezier(0.420, 0.000, 1.000, 1.000) 0.1s;
 }
 
-.discover-page .current-song .item-image {
-  max-height:300px;
-  overflow:hidden;
-}
 
-@media screen and (max-height: 600px) {
-  .discover-page .current-song .item-image {
-    max-height:200px;
-    overflow:hidden;
-  }
+.discover-page .current-song .item-image img {
+  max-width:380px;
 }
 
 .discover-page .current-song.favorited.ng-hide {
